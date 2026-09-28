@@ -1,17 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 310" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#181528" />
-      <stop offset="50%" stop-color="#12131f" />
-      <stop offset="100%" stop-color="#0f172a" />
+      <stop offset="0%" stop-color="#161324" />
+      <stop offset="50%" stop-color="#10111d" />
+      <stop offset="100%" stop-color="#0c1322" />
     </linearGradient>
 
     <!-- Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#f472b6" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="0%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#f472b6;#38bdf8;#c084fc" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#f472b6">
+        <animate attributeName="stop-color" values="#f472b6;#38bdf8;#c084fc;#f472b6" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#c084fc;#f472b6;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
     <!-- Title Gradient -->
@@ -22,8 +28,8 @@
     </linearGradient>
 
     <!-- Ambient Glow Filter -->
-    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="35" />
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40" />
     </filter>
   </defs>
 
@@ -36,16 +42,10 @@
     }
     .subheading {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       fill: #f1f5f9;
       letter-spacing: -0.2px;
-    }
-    .description {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      fill: #cbd5e1;
     }
     .pill-text {
       font-family: 'Fira Code', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -58,60 +58,118 @@
       font-weight: 400;
       fill: #64748b;
     }
+    .motion-text {
+      font-family: 'Fira Code', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13.5px;
+      font-weight: 500;
+    }
+
+    /* Motion Animations */
+    @keyframes cycle1 {
+      0%, 28% { opacity: 1; }
+      33%, 100% { opacity: 0; }
+    }
+    @keyframes cycle2 {
+      0%, 30% { opacity: 0; }
+      35%, 61% { opacity: 1; }
+      66%, 100% { opacity: 0; }
+    }
+    @keyframes cycle3 {
+      0%, 63% { opacity: 0; }
+      68%, 95% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.32; }
+    }
+    @keyframes pulseBeacon {
+      0%, 100% { opacity: 0.4; r: 4; }
+      50% { opacity: 1; r: 5.5; }
+    }
+
+    .c1 { animation: cycle1 9s infinite; }
+    .c2 { animation: cycle2 9s infinite; }
+    .c3 { animation: cycle3 9s infinite; }
+    .cursor { animation: cursorBlink 0.9s infinite; }
+    .glow-orb { animation: pulseGlow 4s ease-in-out infinite alternate; }
+    .beacon { animation: pulseBeacon 2s ease-in-out infinite; }
   </style>
 
-  <!-- Ambient Glow Orbs -->
-  <circle cx="140" cy="60" r="100" fill="#a855f7" opacity="0.18" filter="url(#blur)" />
-  <circle cx="710" cy="250" r="110" fill="#ec4899" opacity="0.16" filter="url(#blur)" />
+  <!-- Ambient Pulsing Glow Orbs -->
+  <circle cx="140" cy="60" r="110" fill="#a855f7" class="glow-orb" filter="url(#blur)" />
+  <circle cx="710" cy="240" r="110" fill="#ec4899" class="glow-orb" filter="url(#blur)" />
 
-  <!-- Outer Card Frame -->
-  <rect x="2" y="2" width="846" height="306" rx="20" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <!-- Outer Card Frame with Dynamic Animated Gradient Border -->
+  <rect x="2" y="2" width="846" height="296" rx="20" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.8" />
+
+  <!-- Live Status Beacon (Top Right) -->
+  <g transform="translate(730, 28)">
+    <circle cx="0" cy="0" r="4.5" fill="#34d399" class="beacon" />
+    <circle cx="0" cy="0" r="8" fill="#34d399" opacity="0.2" />
+    <text x="14" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="500" fill="#94a3b8">ACTIVE</text>
+  </g>
 
   <!-- Title: I'm Zeiniah -->
-  <text x="425" y="62" text-anchor="middle" class="title">
+  <text x="425" y="60" text-anchor="middle" class="title">
     <tspan fill="#ffffff">I'm </tspan>
     <tspan fill="url(#titleGrad)">Zeiniah</tspan>
   </text>
 
   <!-- Subheading -->
-  <text x="425" y="98" text-anchor="middle" class="subheading">
+  <text x="425" y="94" text-anchor="middle" class="subheading">
     AI Engineer • Agentic Workflows • Perception &amp; Vision Systems
   </text>
 
-  <!-- Description -->
-  <text x="425" y="128" text-anchor="middle" class="description">
-    Bridging algorithmic machine learning research with resilient software engineering
-  </text>
-  <text x="425" y="148" text-anchor="middle" class="description">
-    to build autonomous, human-centric intelligent systems.
-  </text>
+  <!-- ANIMATED MOTION TYPEWRITER SECTION -->
+  <g transform="translate(425, 130)">
+    <!-- Cycle 1 -->
+    <text x="0" y="0" text-anchor="middle" class="motion-text c1" fill="#c084fc">
+      &gt; Architecting Autonomous Agents &amp; Decision Pipelines
+      <tspan class="cursor" fill="#f472b6">|</tspan>
+    </text>
+    <!-- Cycle 2 -->
+    <text x="0" y="0" text-anchor="middle" class="motion-text c2" fill="#f472b6">
+      &gt; Temporal Computer Vision &amp; Sequence Modeling
+      <tspan class="cursor" fill="#c084fc">|</tspan>
+    </text>
+    <!-- Cycle 3 -->
+    <text x="0" y="0" text-anchor="middle" class="motion-text c3" fill="#38bdf8">
+      &gt; Acoustic Signal Intelligence &amp; Production Backends
+      <tspan class="cursor" fill="#34d399">|</tspan>
+    </text>
+  </g>
 
-  <!-- Pill Badges Layout (Exact to Preview Mockup) -->
+  <!-- Pill Badges (Categorized Engineering Pillars) -->
   <!-- Row 1: Autonomous Agents -->
-  <g transform="translate(345, 170)">
-    <rect width="160" height="26" rx="13" fill="#2e1065" fill-opacity="0.8" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1" />
+  <g transform="translate(345, 158)">
+    <rect width="160" height="26" rx="13" fill="#2e1065" fill-opacity="0.85" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1" />
     <text x="80" y="17" text-anchor="middle" class="pill-text" fill="#e9d5ff">Autonomous Agents</text>
   </g>
 
   <!-- Row 2: Computer Vision & Sequence Modeling -->
-  <g transform="translate(275, 204)">
-    <rect width="300" height="26" rx="13" fill="#4c0519" fill-opacity="0.8" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1" />
+  <g transform="translate(275, 192)">
+    <rect width="300" height="26" rx="13" fill="#4c0519" fill-opacity="0.85" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1" />
     <text x="150" y="17" text-anchor="middle" class="pill-text" fill="#ffe4e6">Computer Vision &amp; Sequence Modeling</text>
   </g>
 
   <!-- Row 3: Acoustic Signal AI & End-to-End AI Backends -->
-  <g transform="translate(235, 238)">
-    <rect width="175" height="26" rx="13" fill="#082f49" fill-opacity="0.8" stroke="#0284c7" stroke-opacity="0.5" stroke-width="1" />
+  <g transform="translate(235, 226)">
+    <rect width="175" height="26" rx="13" fill="#082f49" fill-opacity="0.85" stroke="#0284c7" stroke-opacity="0.5" stroke-width="1" />
     <text x="87" y="17" text-anchor="middle" class="pill-text" fill="#bae6fd">Acoustic Signal AI</text>
   </g>
 
-  <g transform="translate(425, 238)">
-    <rect width="190" height="26" rx="13" fill="#022c22" fill-opacity="0.8" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+  <g transform="translate(425, 226)">
+    <rect width="190" height="26" rx="13" fill="#022c22" fill-opacity="0.85" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
     <text x="95" y="17" text-anchor="middle" class="pill-text" fill="#a7f3d0">End-to-End AI Backends</text>
   </g>
 
   <!-- Bottom Quote -->
-  <text x="425" y="292" text-anchor="middle" class="quote">
+  <text x="425" y="278" text-anchor="middle" class="quote">
     Translating mathematical models into dependable production software.
   </text>
 </svg>

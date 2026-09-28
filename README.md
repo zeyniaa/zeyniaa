@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/hero.svg" alt="Zeiniah - AI Engineer" width="100%" />
+  <a href="https://github.com/zeyniaa">
+    <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/hero.svg" alt="Zeiniah - AI Engineer" width="100%" />
+  </a>
 </div>
 
 <br />
@@ -35,31 +37,42 @@ My work focuses on the engineering bridge between experimental machine learning 
   </tr>
 </table>
 
----
+<br />
 
 ### Featured Implementations & Case Studies
 
-#### [AutoRestock-Agent](https://github.com/zeyniaa/AutoRestock-Agent) &bull; *Autonomous Inventory Replenishment Engine*
-An enterprise workflow automation platform connecting autonomous LLM agents to structured business databases. Built to prevent inventory depletion through predictive stock telemetry, heterogeneous schema adaptation, strict anti-hallucination routing, and role-based human approval checkpoints before executing high-value purchase orders.
+<table>
+  <tr>
+    <td>
+      <h4><a href="https://github.com/zeyniaa/AutoRestock-Agent">AutoRestock-Agent</a> &bull; <em>Autonomous Inventory Replenishment Engine</em></h4>
+      <p>An enterprise workflow automation platform connecting autonomous LLM agents to structured business databases. Built to prevent inventory depletion through predictive stock telemetry, heterogeneous schema adaptation, strict anti-hallucination routing, and role-based human approval checkpoints before executing high-value purchase orders.</p>
+      <code>FastAPI</code> &bull; <code>LangGraph</code> &bull; <code>DuckDB</code> &bull; <code>Schema Adapter Layer</code> &bull; <code>Server-Sent Events</code> &bull; <code>Pydantic</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>Hijaiyah Sign Language Deep Learning Architecture &bull; <em>Computer Vision &amp; Sequence Modeling</em></h4>
+      <p>Engineered an automated sequence classification pipeline for 112 Hijaiyah sign language classes to support inclusive religious digital accessibility (in collaboration with LPMQ Kementerian Agama RI). Extracted 75 3D skeleton keypoints across 44,697+ frames via MediaPipe Holistic, benchmarking Bi-LSTM, Hybrid LSTM-GRU, and Multi-Head Self-Attention Transformer Encoders to achieve <strong>97.54% classification accuracy</strong>.</p>
+      <code>Transformer Encoder</code> &bull; <code>Bi-LSTM</code> &bull; <code>MediaPipe Holistic</code> &bull; <code>OpenCV</code> &bull; <code>Stratified Sampling</code> &bull; <code>TensorFlow</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>Autism Sensory Meltdown Risk Detector &bull; <em>Acoustic Signal AI &amp; Healthcare Diagnostics</em></h4>
+      <p>Developed an assistive acoustic model identifying auditory triggers that cause sensory meltdowns in neurodivergent individuals (<em>Datathon 2025 by Ristek UI</em>). Spearheaded the preprocessing and spectral feature extraction pipeline with Librosa and MFCC transformation, training a 1D-CNN classifier achieving <strong>90% accuracy</strong> with full multi-metric auditing (F1-score &amp; Confusion Matrix).</p>
+      <code>1D-CNN</code> &bull; <code>Librosa</code> &bull; <code>MFCC Transformation</code> &bull; <code>Scikit-Learn</code> &bull; <code>Acoustic AI</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4><a href="https://github.com/kadaxyorindo-ops/backend-ems-yorindo">Event Telemetry &amp; Survey Intelligence Engine</a> &bull; <em>Full-Stack AI Backend</em></h4>
+      <p>Engineered the backend architecture and AI intelligence layer for an event analytics platform with dynamic MongoDB schema handling (<a href="https://github.com/kadaxyorindo-ops">kadaxyorindo-ops</a>). Developed real-time REST APIs and an LLM-driven synthesis module that transforms unstructured survey responses into categorized sentiment trends and automated managerial action points.</p>
+      <code>LLM Synthesis</code> &bull; <code>FastAPI</code> &bull; <code>MongoDB</code> &bull; <code>Prompt Engineering</code> &bull; <code>CI/CD</code>
+    </td>
+  </tr>
+</table>
 
-`FastAPI` &bull; `LangGraph` &bull; `DuckDB` &bull; `Schema Adapter Layer` &bull; `Server-Sent Events` &bull; `Pydantic`
-
-#### Hijaiyah Sign Language Deep Learning Architecture &bull; *Computer Vision & Sequence Modeling*
-Engineered an automated sequence classification pipeline for 112 Hijaiyah sign language classes to support inclusive religious digital accessibility (in collaboration with LPMQ Kementerian Agama RI). Extracted 75 3D skeleton keypoints across 44,697+ frames via MediaPipe Holistic, benchmarking Bi-LSTM, Hybrid LSTM-GRU, and Multi-Head Self-Attention Transformer Encoders to achieve **97.54% classification accuracy**.
-
-`Transformer Encoder` &bull; `Bi-LSTM` &bull; `MediaPipe Holistic` &bull; `OpenCV` &bull; `Stratified Sampling` &bull; `TensorFlow`
-
-#### Autism Sensory Meltdown Risk Detector &bull; *Acoustic Signal AI & Healthcare Diagnostics*
-Developed an assistive acoustic model identifying auditory triggers that cause sensory meltdowns in neurodivergent individuals *(Datathon 2025 by Ristek UI)*. Spearheaded the preprocessing and spectral feature extraction pipeline with Librosa and MFCC transformation, training a 1D-CNN classifier achieving **90% accuracy** with full multi-metric auditing (F1-score & Confusion Matrix).
-
-`1D-CNN` &bull; `Librosa` &bull; `MFCC Transformation` &bull; `Scikit-Learn` &bull; `Acoustic AI`
-
-#### [Event Telemetry & Survey Intelligence Engine](https://github.com/kadaxyorindo-ops/backend-ems-yorindo) &bull; *Full-Stack AI Backend*
-Engineered the backend architecture and AI intelligence layer for an event analytics platform with dynamic MongoDB schema handling ([kadaxyorindo-ops](https://github.com/kadaxyorindo-ops)). Developed real-time REST APIs and an LLM-driven synthesis module that transforms unstructured survey responses into categorized sentiment trends and automated managerial action points.
-
-`LLM Synthesis` &bull; `FastAPI` &bull; `MongoDB` &bull; `Prompt Engineering` &bull; `CI/CD`
-
----
+<br />
 
 ### Technical Toolchain & Ecosystem
 
@@ -71,23 +84,57 @@ Engineered the backend architecture and AI intelligence layer for an event analy
 | **Data Engineering & Storage** | DuckDB, MongoDB, PostgreSQL, Stratified Sampling, Feature Scaling |
 | **Environment & Collaboration** | Docker, Git / GitHub, Google Colab, Linux CLI, Jupyter Notebook, Figma |
 
----
+<br />
 
 ### Engineering Perspective & Values
 
-- **Determinism over blind trust**: LLMs generate possibilities; software engineering creates reliability. Autonomous agents must be bounded by strict schema validation, type safety, and verifiable guardrails before taking consequential actions.
-- **Data integrity precedes model complexity**: Algorithms evolve rapidly, but disciplined data hygiene—signal normalization, noise filtering, stratified sampling, and ground-truth validation—remains the true bedrock of model performance.
-- **High impact through human-centric utility**: Technology is most meaningful when it solves real human friction—from sign language accessibility for religious texts to predictive sensory monitoring for neurodivergent individuals and operational efficiency.
-- **Continuous iteration in the open**: True competence in AI is built by shipping code, benchmarking hypotheses against real-world distributions, and bridging academic research with clean production software.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>1. Determinism over blind trust</strong>
+      <br /><br />
+      LLMs generate possibilities; software engineering creates reliability. Autonomous agents must be bounded by strict schema validation, type safety, and verifiable guardrails before taking consequential actions.
+    </td>
+    <td width="50%" valign="top">
+      <strong>2. Data integrity precedes model complexity</strong>
+      <br /><br />
+      Algorithms evolve rapidly, but disciplined data hygiene—signal normalization, noise filtering, stratified sampling, and ground-truth validation—remains the true bedrock of model performance.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>3. High impact through human-centric utility</strong>
+      <br /><br />
+      Technology is most meaningful when it solves real human friction—from sign language accessibility for religious texts to predictive sensory monitoring for neurodivergent individuals and operational efficiency.
+    </td>
+    <td width="50%" valign="top">
+      <strong>4. Continuous iteration in the open</strong>
+      <br /><br />
+      True competence in AI is built by shipping code, benchmarking hypotheses against real-world distributions, and bridging academic research with clean production software.
+    </td>
+  </tr>
+</table>
 
----
+<br />
 
 ### Leadership & Community Footprint
 
-- **GDGoC UIN Jakarta &bull; Co-Lead**: Spearheaded the chapter to become the **#1 Most Active & Most Impactful Chapter in Indonesia**, executing 55+ technical sessions across AI, Web, and Cloud for 500+ student members (93% retention rate).
-- **Young On Top Jakarta &bull; Head Division Technology**: Directed a technology division of 30+ members, organized national-scale tech competitions with 500+ participants, and hosted Indonesia's largest youth summit as Master of Ceremonies (YOTNC 2024).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>GDGoC UIN Jakarta</strong> &bull; <code>Co-Lead</code>
+      <br /><br />
+      Spearheaded the chapter to become the <strong>#1 Most Active &amp; Most Impactful Chapter in Indonesia</strong>, executing 55+ technical sessions across AI, Web, and Cloud for 500+ student members (93% retention rate).
+    </td>
+    <td width="50%" valign="top">
+      <strong>Young On Top Jakarta</strong> &bull; <code>Head Division Technology</code>
+      <br /><br />
+      Directed a technology division of 30+ members, organized national-scale tech competitions with 500+ participants, and hosted Indonesia's largest youth summit as Master of Ceremonies (YOTNC 2024).
+    </td>
+  </tr>
+</table>
 
----
+<br />
 
 ### Get in Touch & Collaborate
 
