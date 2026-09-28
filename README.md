@@ -31,7 +31,7 @@ My work spans the full spectrum between experimental deep learning research and 
 </div>
 
 <div align="center">
-  <a href="https://github.com/zeyniaa">
+  <a href="https://github.com/zeyniaa/hijaiyah-sign-language-recognition">
     <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_sign_language.svg" alt="Hijaiyah Sign Language Deep Learning Architecture" width="100%" />
   </a>
 </div>
