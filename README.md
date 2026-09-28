@@ -43,7 +43,7 @@ My work spans the full spectrum between experimental deep learning research and 
 </div>
 
 <div align="center">
-  <a href="https://github.com/kadaxyorindo-ops/backend-ems-yorindo">
+  <a href="https://github.com/zeyniaa/Event-Intelligence-Platform">
     <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_kada.svg" alt="Event Telemetry &amp; Survey Intelligence Engine" width="100%" />
   </a>
 </div>

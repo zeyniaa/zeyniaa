@@ -18,7 +18,7 @@
   <!-- Tag Pill -->
   <g transform="translate(24, 46)">
     <rect width="180" height="22" rx="11" fill="#1e1b4b" stroke="#6366f1" stroke-opacity="0.5" stroke-width="1" />
-    <text x="90" y="15" text-anchor="middle" class="pill">kadaxyorindo-ops • KADA</text>
+    <text x="90" y="15" text-anchor="middle" class="pill">Monorepo • KADA x Yorindo</text>
   </g>
 
   <!-- Description -->
@@ -30,6 +30,6 @@
 
   <!-- Tech Stack -->
   <text x="24" y="150" class="stack">
-    LLM Synthesis • FastAPI • MongoDB • Prompt Engineering • CI/CD
+    LLM Synthesis • TypeScript / Node.js • MongoDB • RabbitMQ • Docker
   </text>
 </svg>
