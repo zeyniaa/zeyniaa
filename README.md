@@ -6,6 +6,12 @@
 
 <br />
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
+
+<br />
+
 ### Core Architectural Domains
 
 My work focuses on the engineering bridge between experimental machine learning research and resilient production software:
@@ -36,6 +42,12 @@ My work focuses on the engineering bridge between experimental machine learning 
     </td>
   </tr>
 </table>
+
+<br />
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
 
 <br />
 
@@ -74,6 +86,12 @@ My work focuses on the engineering bridge between experimental machine learning 
 
 <br />
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
+
+<br />
+
 ### Technical Toolchain & Ecosystem
 
 | Capability Layer | Technologies & Libraries |
@@ -83,6 +101,12 @@ My work focuses on the engineering bridge between experimental machine learning 
 | **Backend & API Engineering** | Python, FastAPI, Uvicorn, RESTful Services, Asynchronous Pipelines |
 | **Data Engineering & Storage** | DuckDB, MongoDB, PostgreSQL, Stratified Sampling, Feature Scaling |
 | **Environment & Collaboration** | Docker, Git / GitHub, Google Colab, Linux CLI, Jupyter Notebook, Figma |
+
+<br />
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
 
 <br />
 
@@ -117,6 +141,12 @@ My work focuses on the engineering bridge between experimental machine learning 
 
 <br />
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
+
+<br />
+
 ### Leadership & Community Footprint
 
 <table>
@@ -133,6 +163,12 @@ My work focuses on the engineering bridge between experimental machine learning 
     </td>
   </tr>
 </table>
+
+<br />
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
+</div>
 
 <br />
 
