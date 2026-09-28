@@ -37,7 +37,7 @@ My work spans the full spectrum between experimental deep learning research and 
 </div>
 
 <div align="center">
-  <a href="https://github.com/zeyniaa">
+  <a href="https://github.com/zeyniaa/autism-meltdown-detector">
     <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_autism_audio.svg" alt="Autism Sensory Meltdown Risk Detector" width="100%" />
   </a>
 </div>
