@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 175" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 400; fill: #94a3b8; }
+    .pill { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; fill: #c084fc; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .stack { font-family: 'Fira Code', monospace; font-size: 11px; fill: #a855f7; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="171" rx="14" fill="#0f0e1c" stroke="#9333ea" stroke-opacity="0.45" stroke-width="1.2" />
+
+  <!-- Title & Subtitle -->
+  <text x="24" y="32">
+    <tspan class="title">Lip Texture Condition Detector</tspan>
+    <tspan class="subtitle"> • Computer Vision &amp; Healthcare AI</tspan>
+  </text>
+
+  <!-- Tag Pill -->
+  <g transform="translate(24, 46)">
+    <rect width="215" height="22" rx="11" fill="#2e1065" stroke="#9333ea" stroke-opacity="0.5" stroke-width="1" />
+    <text x="107.5" y="15" text-anchor="middle" class="pill">Visual Texture &amp; Clinical Diagnostics</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="90" class="body">
+    <tspan x="24" dy="0">Constructed a computer vision pipeline diagnosing lip mucosal health into Healthy, Sub-healthy, and Unhealthy conditions.</tspan>
+    <tspan x="24" dy="18">Engineered single-channel grayscale preprocessing (224x224x1) to isolate surface fissures from demographic pigmentation bias.</tspan>
+    <tspan x="24" dy="18">Trained 2D-CNN feature extractors with automated file sanitization, class balancing, and an interactive Gradio web interface.</tspan>
+  </text>
+
+  <!-- Tech Stack -->
+  <text x="24" y="150" class="stack">
+    2D-CNN • TensorFlow • OpenCV • PIL • Gradio • Image Augmentation • Python
+  </text>
+</svg>

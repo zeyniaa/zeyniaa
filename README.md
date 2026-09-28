@@ -49,6 +49,12 @@ My work spans the full spectrum between experimental deep learning research and 
 </div>
 
 <div align="center">
+  <a href="https://github.com/zeyniaa/lip-texture-condition-detector">
+    <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_lip_texture.svg" alt="Lip Texture Condition Detector" width="100%" />
+  </a>
+</div>
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/divider.svg" width="100%" />
 </div>
 
