@@ -10,6 +10,8 @@
 
 ### Core Architectural Domains
 
+My work spans the full spectrum between experimental deep learning research and resilient production software:
+
 <div align="center">
   <a href="https://github.com/zeyniaa">
     <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/domains.svg" alt="Core Architectural Domains" width="100%" />
@@ -88,8 +90,14 @@
 
 ### Get in Touch & Collaborate
 
+Always open to technical discussions, AI research collaborations, and engineering opportunities:
+
+- **Email**: [zeiniahalfiah@gmail.com](mailto:zeiniahalfiah@gmail.com)
+- **LinkedIn**: [linkedin.com/in/zeiniah](https://bit.ly/ZeiniahLinkedIn)
+- **Portfolio**: [bit.ly/ZeinPortfolio](https://bit.ly/ZeinPortfolio)
+- **GitHub**: [@zeyniaa](https://github.com/zeyniaa)
+
 <div align="center">
-  <a href="mailto:zeiniahalfiah@gmail.com">
-    <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/connect.svg" alt="Get in Touch &amp; Collaborate" width="100%" />
-  </a>
+  <br />
+  <p><em>Engineered with curiosity, precision, and dedication to meaningful AI.</em></p>
 </div>
