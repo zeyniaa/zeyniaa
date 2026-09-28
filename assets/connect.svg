@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="connBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#f472b6;#c084fc;#38bdf8;#f472b6" dur="9s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#c084fc;#38bdf8;#f472b6;#c084fc" dur="9s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .contact-item { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 500; }
+    .footer-quote { font-family: 'Fira Code', monospace; font-size: 11px; fill: #64748b; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="186" rx="14" fill="#151222" stroke="url(#connBorder)" stroke-width="1.2" />
+
+  <text x="24" y="28" class="title">Get in Touch &amp; Collaborate</text>
+  <text x="24" y="48" class="subtitle">Always open to technical discussions, AI research collaborations, and engineering opportunities:</text>
+
+  <!-- Contact Grid Pills (Row 1) -->
+  <g transform="translate(24, 68)">
+    <!-- Email -->
+    <g transform="translate(0, 0)">
+      <rect width="255" height="28" rx="8" fill="#2d1222" stroke="#f472b6" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="18" class="contact-item" fill="#fbcfe8"><tspan fill="#94a3b8">Email: </tspan>zeiniahalfiah@gmail.com</text>
+    </g>
+    <!-- LinkedIn -->
+    <g transform="translate(270, 0)">
+      <rect width="250" height="28" rx="8" fill="#0c1f33" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="18" class="contact-item" fill="#bae6fd"><tspan fill="#94a3b8">LinkedIn: </tspan>linkedin.com/in/zeiniah</text>
+    </g>
+    <!-- GitHub -->
+    <g transform="translate(535, 0)">
+      <rect width="265" height="28" rx="8" fill="#1e1833" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1" />
+      <text x="12" y="18" class="contact-item" fill="#e9d5ff"><tspan fill="#94a3b8">GitHub: </tspan>github.com/zeyniaa</text>
+    </g>
+  </g>
+
+  <!-- Portfolio Pill (Row 2) -->
+  <g transform="translate(24, 106)">
+    <rect width="255" height="28" rx="8" fill="#13241b" stroke="#34d399" stroke-opacity="0.5" stroke-width="1" />
+    <text x="12" y="18" class="contact-item" fill="#a7f3d0"><tspan fill="#94a3b8">Portfolio: </tspan>bit.ly/ZeinPortfolio</text>
+  </g>
+
+  <text x="425" y="165" text-anchor="middle" class="footer-quote">
+    Engineered with curiosity, precision, and dedication to meaningful AI.
+  </text>
+</svg>
