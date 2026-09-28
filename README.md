@@ -1,29 +1,39 @@
 <div align="center">
-
-  <h1>Hi, I'm Zeiniah</h1>
-
-  <p><strong>AI Engineer &bull; Agentic Workflows &bull; Perception & Vision Systems</strong></p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Domain-Autonomous%20Agents-E9D5FF?style=flat-square&labelColor=F5F3FF&color=C084FC" alt="Domain 1" />
-    <img src="https://img.shields.io/badge/Research-Computer%20Vision%20%26%20DL-FCE7F3?style=flat-square&labelColor=FDF2F8&color=F472B6" alt="Domain 2" />
-    <img src="https://img.shields.io/badge/Engineering-Production%20AI%20Backends-E0E7FF?style=flat-square&labelColor=EEF2FF&color=818CF8" alt="Domain 3" />
-  </p>
-
-  <p><em>Bridging algorithmic machine learning research with resilient software engineering to build autonomous, human-centric intelligent systems.</em></p>
-
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/hero.svg" alt="Zeiniah - AI Engineer" width="100%" />
 </div>
 
----
+<br />
 
 ### Core Architectural Domains
 
 My work focuses on the engineering bridge between experimental machine learning research and resilient production software:
 
-- **Autonomous Agents & Decision Pipelines**: Orchestrating stateful multi-agent workflows, heterogeneous schema adapters, and deterministic validation boundaries that safeguard LLM reasoning with role-aware human checkpoints.
-- **Perception & Gesture Intelligence**: Extracting real-time 3D skeleton keypoints (MediaPipe Holistic) and implementing Multi-Head Self-Attention Transformer architectures for complex sign language sequence classification.
-- **Acoustic & Multimodal AI**: Decomposing time-frequency audio signals through Mel-Frequency Cepstral Coefficients (MFCC) and training specialized 1D-CNN classifiers for assistive healthcare screening.
-- **Production AI Backends & Auditing**: Building low-latency FastAPI microservices, telemetry streaming layers, and multi-metric statistical auditing frameworks (F1-score, Confusion Matrix) to ensure deployment reliability.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Autonomous Agents &amp; Decision Pipelines</strong> &nbsp;<code>Agentic AI</code>
+      <br /><br />
+      Orchestrating stateful multi-agent workflows, heterogeneous schema adapters, and deterministic validation boundaries that safeguard LLM reasoning with role-aware human checkpoints.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Perception &amp; Gesture Intelligence</strong> &nbsp;<code>Computer Vision</code>
+      <br /><br />
+      Extracting real-time 3D skeleton keypoints (MediaPipe Holistic) and implementing Multi-Head Self-Attention Transformer architectures for complex sign language sequence classification.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Acoustic &amp; Multimodal AI</strong> &nbsp;<code>Signal Processing</code>
+      <br /><br />
+      Decomposing time-frequency audio signals through Mel-Frequency Cepstral Coefficients (MFCC) and training specialized 1D-CNN classifiers for assistive healthcare screening.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Production AI Backends &amp; Auditing</strong> &nbsp;<code>Systems &amp; Infra</code>
+      <br /><br />
+      Building low-latency FastAPI microservices, telemetry streaming layers, and multi-metric statistical auditing frameworks (F1-score, Confusion Matrix) to ensure deployment reliability.
+    </td>
+  </tr>
+</table>
 
 ---
 
