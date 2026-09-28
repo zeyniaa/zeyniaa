@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 175" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 400; fill: #94a3b8; }
+    .pill { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; fill: #cbd5e1; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .stack { font-family: 'Fira Code', monospace; font-size: 11px; fill: #a5b4fc; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="171" rx="14" fill="#111624" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1.2" />
+
+  <!-- Title & Subtitle -->
+  <text x="24" y="32">
+    <tspan class="title">Event Telemetry &amp; Survey Intelligence Engine</tspan>
+    <tspan class="subtitle"> • Full-Stack AI Backend</tspan>
+  </text>
+
+  <!-- Tag Pill -->
+  <g transform="translate(24, 46)">
+    <rect width="180" height="22" rx="11" fill="#1e1b4b" stroke="#6366f1" stroke-opacity="0.5" stroke-width="1" />
+    <text x="90" y="15" text-anchor="middle" class="pill">kadaxyorindo-ops • KADA</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="90" class="body">
+    <tspan x="24" dy="0">Engineered backend architecture and AI intelligence layer for an event analytics platform with dynamic MongoDB schema</tspan>
+    <tspan x="24" dy="18">handling (kadaxyorindo-ops). Developed real-time REST APIs and an LLM-driven synthesis module that transforms unstructured</tspan>
+    <tspan x="24" dy="18">survey responses into categorized sentiment trends and automated managerial action points.</tspan>
+  </text>
+
+  <!-- Tech Stack -->
+  <text x="24" y="150" class="stack">
+    LLM Synthesis • FastAPI • MongoDB • Prompt Engineering • CI/CD
+  </text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 175" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #c084fc; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 400; fill: #94a3b8; }
+    .pill { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; fill: #e9d5ff; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .stack { font-family: 'Fira Code', monospace; font-size: 11px; fill: #c084fc; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="171" rx="14" fill="#171226" stroke="#c084fc" stroke-opacity="0.45" stroke-width="1.2" />
+
+  <!-- Title & Subtitle -->
+  <text x="24" y="32">
+    <tspan class="title">AutoRestock-Agent</tspan>
+    <tspan class="subtitle"> • Autonomous Inventory Replenishment Engine</tspan>
+  </text>
+
+  <!-- Tag Pill -->
+  <g transform="translate(24, 46)">
+    <rect width="170" height="22" rx="11" fill="#2e1065" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1" />
+    <text x="85" y="15" text-anchor="middle" class="pill">Agentic Orchestration</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="90" class="body">
+    <tspan x="24" dy="0">An enterprise automation platform connecting autonomous LLM agents to structured business databases. Built to prevent</tspan>
+    <tspan x="24" dy="18">inventory depletion through predictive stock telemetry, heterogeneous schema adaptation, strict anti-hallucination routing,</tspan>
+    <tspan x="24" dy="18">and role-based human approval checkpoints before executing high-value purchase orders.</tspan>
+  </text>
+
+  <!-- Tech Stack -->
+  <text x="24" y="150" class="stack">
+    FastAPI • LangGraph • DuckDB • Schema Adapter Layer • Server-Sent Events • Pydantic
+  </text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 324" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 700; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; line-height: 1.5; fill: #94a3b8; }
+  </style>
+
+  <!-- Card 1 -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="418" height="154" rx="14" fill="#171226" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="18" y="28" class="title" fill="#c084fc">1. Determinism over blind trust</text>
+    <text x="18" y="52" class="body">
+      <tspan x="18" dy="0">LLMs generate possibilities; software engineering</tspan>
+      <tspan x="18" dy="17">creates reliability. Autonomous agents must be bounded</tspan>
+      <tspan x="18" dy="17">by strict schema validation, type safety, and verifiable</tspan>
+      <tspan x="18" dy="17">guardrails before taking consequential actions.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(430, 0)">
+    <rect x="2" y="2" width="418" height="154" rx="14" fill="#20101c" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="18" y="28" class="title" fill="#fb7185">2. Data integrity precedes model complexity</text>
+    <text x="18" y="52" class="body">
+      <tspan x="18" dy="0">Algorithms evolve rapidly, but disciplined data hygiene—</tspan>
+      <tspan x="18" dy="17">signal normalization, noise filtering, stratified</tspan>
+      <tspan x="18" dy="17">sampling, and ground-truth validation—remains the</tspan>
+      <tspan x="18" dy="17">true bedrock of model performance.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(0, 166)">
+    <rect x="2" y="2" width="418" height="154" rx="14" fill="#0b1828" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="18" y="28" class="title" fill="#38bdf8">3. High impact through human-centric utility</text>
+    <text x="18" y="52" class="body">
+      <tspan x="18" dy="0">Technology is most meaningful when it solves real</tspan>
+      <tspan x="18" dy="17">human friction—from sign language accessibility</tspan>
+      <tspan x="18" dy="17">for religious texts to predictive sensory monitoring</tspan>
+      <tspan x="18" dy="17">for neurodivergent individuals.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(430, 166)">
+    <rect x="2" y="2" width="418" height="154" rx="14" fill="#0a1f18" stroke="#10b981" stroke-opacity="0.4" stroke-width="1.2" />
+    <text x="18" y="28" class="title" fill="#34d399">4. Continuous iteration in the open</text>
+    <text x="18" y="52" class="body">
+      <tspan x="18" dy="0">True competence in AI is built by shipping code,</tspan>
+      <tspan x="18" dy="17">benchmarking hypotheses against real-world distributions,</tspan>
+      <tspan x="18" dy="17">and bridging academic research with clean production</tspan>
+      <tspan x="18" dy="17">software.</tspan>
+    </text>
+  </g>
+</svg>

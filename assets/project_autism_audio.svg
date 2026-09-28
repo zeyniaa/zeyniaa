@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 175" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 400; fill: #94a3b8; }
+    .pill { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; fill: #7dd3fc; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .stack { font-family: 'Fira Code', monospace; font-size: 11px; fill: #38bdf8; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="171" rx="14" fill="#0c1724" stroke="#0284c7" stroke-opacity="0.45" stroke-width="1.2" />
+
+  <!-- Title & Subtitle -->
+  <text x="24" y="32">
+    <tspan class="title">Autism Sensory Meltdown Risk Detector</tspan>
+    <tspan class="subtitle"> • Acoustic Signal AI &amp; Healthcare Diagnostics</tspan>
+  </text>
+
+  <!-- Tag Pill -->
+  <g transform="translate(24, 46)">
+    <rect width="195" height="22" rx="11" fill="#082f49" stroke="#0284c7" stroke-opacity="0.5" stroke-width="1" />
+    <text x="97.5" y="15" text-anchor="middle" class="pill">Datathon 2025 by Ristek UI</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="90" class="body">
+    <tspan x="24" dy="0">Developed an assistive acoustic model identifying auditory triggers that cause sensory meltdowns in neurodivergent individuals.</tspan>
+    <tspan x="24" dy="18">Spearheaded preprocessing and spectral feature extraction pipeline with Librosa and MFCC transformation, training a 1D-CNN</tspan>
+    <tspan x="24" dy="18">classifier achieving 90% accuracy with full multi-metric auditing (F1-score &amp; Confusion Matrix).</tspan>
+  </text>
+
+  <!-- Tech Stack -->
+  <text x="24" y="150" class="stack">
+    1D-CNN • Librosa • MFCC Transformation • Scikit-Learn • Acoustic AI
+  </text>
+</svg>

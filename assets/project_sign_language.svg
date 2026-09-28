@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 175" width="100%" height="100%">
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 400; fill: #94a3b8; }
+    .pill { font-family: 'Fira Code', monospace; font-size: 10px; font-weight: 600; fill: #6ee7b7; }
+    .body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #cbd5e1; }
+    .stack { font-family: 'Fira Code', monospace; font-size: 11px; fill: #34d399; }
+  </style>
+
+  <rect x="2" y="2" width="846" height="171" rx="14" fill="#0c1716" stroke="#10b981" stroke-opacity="0.45" stroke-width="1.2" />
+
+  <!-- Title & Subtitle -->
+  <text x="24" y="32">
+    <tspan class="title">Hijaiyah Sign Language Deep Learning Architecture</tspan>
+    <tspan class="subtitle"> • Computer Vision &amp; Sequence Modeling</tspan>
+  </text>
+
+  <!-- Tag Pill -->
+  <g transform="translate(24, 46)">
+    <rect width="135" height="22" rx="11" fill="#064e3b" stroke="#10b981" stroke-opacity="0.5" stroke-width="1" />
+    <text x="67.5" y="15" text-anchor="middle" class="pill">97.54% Accuracy</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="90" class="body">
+    <tspan x="24" dy="0">Engineered an automated sequence classification pipeline for 112 Hijaiyah sign language classes for digital accessibility</tspan>
+    <tspan x="24" dy="18">(in collaboration with LPMQ Kementerian Agama RI). Extracted 75 3D skeleton keypoints across 44,697+ frames via MediaPipe</tspan>
+    <tspan x="24" dy="18">Holistic, benchmarking Bi-LSTM, Hybrid LSTM-GRU, and Multi-Head Self-Attention Transformer Encoders.</tspan>
+  </text>
+
+  <!-- Tech Stack -->
+  <text x="24" y="150" class="stack">
+    Transformer Encoder • Bi-LSTM • MediaPipe Holistic • OpenCV • Stratified Sampling • TensorFlow
+  </text>
+</svg>

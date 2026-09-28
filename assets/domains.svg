@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 364" width="100%" height="100%">
+  <style>
+    .card-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .card-tag {
+      font-family: 'Fira Code', monospace;
+      font-size: 10.5px;
+      font-weight: 600;
+    }
+    .card-body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, sans-serif;
+      font-size: 12px;
+      line-height: 1.55;
+      fill: #94a3b8;
+    }
+  </style>
+
+  <!-- Card 1: Autonomous Agents (Top-Left) -->
+  <g transform="translate(0, 0)">
+    <rect x="2" y="2" width="418" height="174" rx="14" fill="#171226" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1.2" />
+    <text x="20" y="32" class="card-title" fill="#c084fc">Autonomous Agents &amp; Decisions</text>
+    <text x="400" y="32" text-anchor="end" class="card-tag" fill="#c084fc">Agentic AI</text>
+    <text x="20" y="60" class="card-body">
+      <tspan x="20" dy="0">Orchestrating stateful multi-agent workflows,</tspan>
+      <tspan x="20" dy="19">heterogeneous schema adapters, and deterministic</tspan>
+      <tspan x="20" dy="19">validation boundaries that safeguard LLM reasoning</tspan>
+      <tspan x="20" dy="19">with role-aware human checkpoints.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 2: Perception & Gesture (Top-Right) -->
+  <g transform="translate(430, 0)">
+    <rect x="2" y="2" width="418" height="174" rx="14" fill="#20101c" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1.2" />
+    <text x="20" y="32" class="card-title" fill="#fb7185">Perception &amp; Gesture Vision</text>
+    <text x="400" y="32" text-anchor="end" class="card-tag" fill="#fb7185">Computer Vision</text>
+    <text x="20" y="60" class="card-body">
+      <tspan x="20" dy="0">Extracting real-time 3D skeleton keypoints</tspan>
+      <tspan x="20" dy="19">(MediaPipe Holistic) and implementing Multi-Head</tspan>
+      <tspan x="20" dy="19">Self-Attention Transformer architectures for complex</tspan>
+      <tspan x="20" dy="19">sign language sequence classification.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 3: Acoustic Signal AI (Bottom-Left) -->
+  <g transform="translate(0, 186)">
+    <rect x="2" y="2" width="418" height="174" rx="14" fill="#0b1828" stroke="#0284c7" stroke-opacity="0.45" stroke-width="1.2" />
+    <text x="20" y="32" class="card-title" fill="#38bdf8">Acoustic &amp; Multimodal AI</text>
+    <text x="400" y="32" text-anchor="end" class="card-tag" fill="#38bdf8">Signal AI</text>
+    <text x="20" y="60" class="card-body">
+      <tspan x="20" dy="0">Decomposing time-frequency audio signals through</tspan>
+      <tspan x="20" dy="19">Mel-Frequency Cepstral Coefficients (MFCC) and</tspan>
+      <tspan x="20" dy="19">training specialized 1D-CNN classifiers for</tspan>
+      <tspan x="20" dy="19">assistive healthcare screening.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 4: Production AI Backends (Bottom-Right) -->
+  <g transform="translate(430, 186)">
+    <rect x="2" y="2" width="418" height="174" rx="14" fill="#0a1f18" stroke="#10b981" stroke-opacity="0.45" stroke-width="1.2" />
+    <text x="20" y="32" class="card-title" fill="#34d399">Production AI Backends</text>
+    <text x="400" y="32" text-anchor="end" class="card-tag" fill="#34d399">Systems &amp; Infra</text>
+    <text x="20" y="60" class="card-body">
+      <tspan x="20" dy="0">Building low-latency FastAPI microservices,</tspan>
+      <tspan x="20" dy="19">telemetry streaming layers, and multi-metric</tspan>
+      <tspan x="20" dy="19">statistical auditing frameworks (F1-score,</tspan>
+      <tspan x="20" dy="19">Confusion Matrix) to ensure deployment reliability.</tspan>
+    </text>
+  </g>
+</svg>
