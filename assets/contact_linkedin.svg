@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 24" width="500" height="24">
+  <style>
+    .label { font-family: 'Fira Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; fill: #94a3b8; }
+    .val { font-family: 'Fira Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; font-weight: 500; fill: #c084fc; text-decoration: underline; }
+  </style>
+  <text x="0" y="17" class="label">LinkedIn:</text>
+  <text x="100" y="17" class="val">linkedin.com/in/zeiniah</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 36" width="650" height="36">
+  <style>
+    .footer { font-family: 'Fira Code', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; fill: #67e8f9; text-anchor: middle; opacity: 0.9; }
+  </style>
+  <text x="325" y="22" class="footer">Engineered with curiosity, precision, and dedication to meaningful AI.</text>
+</svg>

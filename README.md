@@ -92,12 +92,15 @@ My work spans the full spectrum between experimental deep learning research and 
 
 Always open to technical discussions, AI research collaborations, and engineering opportunities:
 
-- **Email**: [zeiniahalfiah@gmail.com](mailto:zeiniahalfiah@gmail.com)
-- **LinkedIn**: [linkedin.com/in/zeiniah](https://bit.ly/ZeiniahLinkedIn)
-- **Portfolio**: [bit.ly/ZeinPortfolio](https://bit.ly/ZeinPortfolio)
-- **GitHub**: [@zeyniaa](https://github.com/zeyniaa)
+<p>
+  <a href="mailto:zeiniahalfiah@gmail.com"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_email.svg" height="22" alt="Email: zeiniahalfiah@gmail.com" /></a><br />
+  <a href="https://bit.ly/ZeiniahLinkedIn"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_linkedin.svg" height="22" alt="LinkedIn: linkedin.com/in/zeiniah" /></a><br />
+  <a href="https://bit.ly/ZeinPortfolio"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_portfolio.svg" height="22" alt="Portfolio: bit.ly/ZeinPortfolio" /></a><br />
+  <a href="https://github.com/zeyniaa"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_github.svg" height="22" alt="GitHub: @zeyniaa" /></a>
+</p>
 
 <div align="center">
   <br />
-  <p><em>Engineered with curiosity, precision, and dedication to meaningful AI.</em></p>
+  <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/footer.svg" alt="Closing" width="550" />
 </div>
+
