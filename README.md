@@ -25,8 +25,8 @@ My work spans the full spectrum between experimental deep learning research and 
 ### Featured Implementations & Case Studies
 
 <div align="center">
-  <a href="https://github.com/zeyniaa/AutoRestock-Agent">
-    <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_autorestock.svg" alt="AutoRestock-Agent" width="100%" />
+  <a href="https://github.com/zeyniaa/AutoRestock-AI-Agent">
+    <img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/project_autorestock.svg" alt="AutoRestock-AI-Agent" width="100%" />
   </a>
 </div>
 

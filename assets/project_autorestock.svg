@@ -11,7 +11,7 @@
 
   <!-- Title & Subtitle -->
   <text x="24" y="32">
-    <tspan class="title">AutoRestock-Agent</tspan>
+    <tspan class="title">AutoRestock-AI-Agent</tspan>
     <tspan class="subtitle"> • Autonomous Inventory Replenishment Engine</tspan>
   </text>
 
