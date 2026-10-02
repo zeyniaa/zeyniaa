@@ -101,7 +101,7 @@ Always open to technical discussions, AI research collaborations, and engineerin
 <p>
   <a href="mailto:zeiniahalfiah@gmail.com"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_email.svg" height="22" alt="Email: zeiniahalfiah@gmail.com" /></a><br />
   <a href="https://bit.ly/ZeiniahLinkedIn"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_linkedin.svg" height="22" alt="LinkedIn: linkedin.com/in/zeiniah" /></a><br />
-  <a href="https://bit.ly/ZeinPortfolio"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_portfolio.svg" height="22" alt="Portfolio: bit.ly/ZeinPortfolio" /></a><br />
+  <a href="https://zeiniahporto.vercel.app"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_portfolio.svg" height="22" alt="Portfolio: zeiniahporto.vercel.app" /></a><br />
   <a href="https://github.com/zeyniaa"><img src="https://raw.githubusercontent.com/zeyniaa/zeyniaa/main/assets/contact_github.svg" height="22" alt="GitHub: @zeyniaa" /></a>
 </p>
 
